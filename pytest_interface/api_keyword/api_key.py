@@ -10,6 +10,7 @@
 '''
 import json
 
+import allure
 import requests
 
 

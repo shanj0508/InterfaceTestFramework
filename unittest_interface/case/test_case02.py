@@ -2,7 +2,7 @@
 import unittest
 from ddt import ddt, file_data
 
-from class0221_apiTest.unittest_interface.api_keyword.api_key import ApiKey
+from unittest_interface.api_keyword.api_key import ApiKey
 
 
 @ddt

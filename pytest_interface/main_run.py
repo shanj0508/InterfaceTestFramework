@@ -1,5 +1,10 @@
 # -*- coding: utf-8 -*-
 # 入口方法
+import os
+
+import pytest
+
+
 def run():
     # 指定执行文件
     pytest.main(['-v', './case/test_case03.py', '--alluredir', './result', '--clean-alluredir'])

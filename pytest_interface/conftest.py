@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
-from class0221_apiTest.pytest_interface.api_keyword.api_key import ApiKey
-from class0221_apiTest.pytest_interface.params.allParams import *
+import allure
+import pytest
+
+from pytest_interface.api_keyword.api_key import ApiKey
+from pytest_interface.params.allParams import *
 
 
 def pytest_collection_modifyitems(items):

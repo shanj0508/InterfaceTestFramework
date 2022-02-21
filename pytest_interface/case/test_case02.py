@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 import pytest
 
-from class0221_apiTest.pytest_interface.api_keyword.api_key import ApiKey
-from class0221_apiTest.pytest_interface.data_driver import yaml_driver
+from pytest_interface.api_keyword.api_key import ApiKey
+from pytest_interface.data_driver import yaml_driver
 
 
-class Test_ApiCase()
+class Test_ApiCase():
     # 参数化
     @pytest.mark.paramtrize('userData', yaml_driver.load_yaml('../data/user.yaml'))
     def test01(self, userData):

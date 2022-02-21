@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 import pytest
 
-from class0221_apiTest.pytest_interface.api_keyword.api_key import ApiKey
+from pytest_interface.api_keyword.api_key import ApiKey
 
 
-class Test_ApiCase()
+class Test_ApiCase():
     def test01(self):
         # 初始化工具类
         ak = ApiKey()

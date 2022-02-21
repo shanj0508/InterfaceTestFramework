@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
+import allure
 import pytest
 
-from class0221_apiTest.pytest_interface.api_keyword.api_key import ApiKey
-from class0221_apiTest.pytest_interface.data_driver import yaml_driver
+from pytest_interface.api_keyword.api_key import ApiKey
+from pytest_interface.data_driver import yaml_driver
 
 
 @allure.epic("接口测试")
-class Test_ApiCase()
+class Test_ApiCase():
     # 参数化
     @allure.story("01.登录接口测试")
     @pytest.mark.paramtrize('userData', yaml_driver.load_yaml('./data/user.yaml'), ids=[
