@@ -13,6 +13,8 @@ import json
 import allure
 import requests
 
+import jsonpath
+
 
 class ApiKey:
     @allure.step("发送get请求")
