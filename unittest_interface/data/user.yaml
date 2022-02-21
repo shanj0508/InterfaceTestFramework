@@ -1,0 +1,14 @@
+- user:
+    username: admin
+    password: 'O8I1xE0y0yr42UAfZeZ9lBSABcLd0yFO8Foi6EW6dyFw3noQrte8i4kzrq3CC0GBAjINzFRaPettaAj5BdP02WQx4FATlVNFn42o2AM4Nsc0PDhZf+PpNvz+rld2cITo4zKgoU6EoV/k5voPECvpbQ9l6mfLYWL3WyYdVx1PDf0='
+  msg: success
+
+- user:
+    username: admin1
+    password: '123456'
+  msg: 用户名或密码错误
+
+- user:
+    username: admin
+    password: '1234567'
+  msg: 用户名或密码错误
